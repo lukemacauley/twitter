@@ -24,7 +24,7 @@ Twitter::Application.configure do
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
-  # config.assets.css_compressor = :sass
+  config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
@@ -55,7 +55,7 @@ Twitter::Application.configure do
   # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-    config.action_controller.asset_host = "https://d1lqd69xb5bi8z.cloudfront.net"
+    config.action_controller.asset_host = "https://d1m53t3rdix4yd.cloudfront.net"
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
@@ -79,5 +79,5 @@ Twitter::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # In production, :host should be set to the actual host of your application.
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'luke-twitter-6583.herokuapp.com' }
 end
