@@ -13,6 +13,7 @@ gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
 gem 'simple_form'
 gem 'newrelic_rpm'
+gem "asset_sync"
 
 group :test, :development do	
 	gem 'sqlite3'
