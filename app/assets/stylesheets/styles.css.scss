@@ -9,14 +9,13 @@ textarea.text.required#post_text {
 }
 
 .navbar-inner{
-    @include box-shadow(none !important);
     border: 0;
 }
 
 .footer{
     margin-top: 50px;
-    color: $grayLight;
+    color: #999;
     a{
-        color: $gray;
+        color: #999;
     }
 }
