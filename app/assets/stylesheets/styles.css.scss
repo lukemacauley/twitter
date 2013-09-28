@@ -1,9 +1,3 @@
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
-$btnPrimaryBackground: purple;
-
-@import 'bootstrap';
-
 body{
     padding-top: 60px;
 }
@@ -13,8 +7,6 @@ textarea.text.required#post_text {
 	width: 100%;
 	height: 500px;
 }
-
-@import 'bootstrap-responsive';
 
 .navbar-inner{
     @include box-shadow(none !important);
