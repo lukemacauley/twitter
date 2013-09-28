@@ -14,6 +14,8 @@ gem 'devise'
 gem 'simple_form'
 gem 'newrelic_rpm'
 gem "asset_sync"
+gem "redcarpet"
+gem "rouge"
 
 group :test, :development do	
 	gem 'sqlite3'

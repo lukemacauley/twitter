@@ -8,6 +8,12 @@ body{
     padding-top: 60px;
 }
 
+textarea.text.required#post_text {
+	font-family: "lucida console";
+	width: 100%;
+	height: 500px;
+}
+
 @import 'bootstrap-responsive';
 
 .navbar-inner{

@@ -2,7 +2,7 @@
 
   <h3><%= link_to post.title, post %></h3>
 
-  <p><%= post.text %></p>
+  <p><%= markdown(post.text).html_safe %></p>
 
 		<% if current_user == post.user %>
     	<p>
